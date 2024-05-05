@@ -10,3 +10,37 @@ img {
     width: 500px;
     height: 250px;
 }
+
+.header {
+    background-color: #1F2937;
+}
+
+.header p {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top { 
+    background-color: #1F2937;
+}
+
+.top h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.top p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
