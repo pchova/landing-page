@@ -117,6 +117,10 @@ button {
     cursor: pointer;
 }
 
+.bottom {
+    padding: 75px;
+}
+
 .toptext button {
     border: none;
 }
@@ -159,4 +163,8 @@ button {
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 18px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
