@@ -66,6 +66,7 @@ img {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .toptext p {
@@ -99,11 +100,12 @@ img {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 8px;
+    border-radius: 6px;
     font-size: 18px;
     font-weight: bold;
     width: 140px;
     padding: 6px;
+    cursor: pointer;
 }
 
 .toptext button {
