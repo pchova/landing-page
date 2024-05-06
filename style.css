@@ -18,6 +18,7 @@ img {
 .header p {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .header a {
@@ -62,6 +63,7 @@ button {
     color: #F9FAF8;
     border-radius: 8px;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .ad {
