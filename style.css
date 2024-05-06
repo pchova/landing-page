@@ -7,7 +7,7 @@ body {
 
 .box {
     border: 5px solid lightblue;
-    width: 140px;
+    max-width: 140px;
     height: 150px;
     border-radius: 10px;
 }
@@ -72,7 +72,7 @@ img {
 .toptext p {
     font-size: 18px;
     color: #E5E7EB;
-    width: 400px;
+    max-width: 400px;
 }
 
 .middle {
@@ -117,22 +117,58 @@ button {
     cursor: pointer;
 }
 
-.bottom {
-    padding: 75px;
-}
-
 .toptext button {
     border: none;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 100px 200px;
+}
+.quote-text {
+    font-style: italic;
+}
+
+.quote-signature {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
+}
+
 .ad {
+    background-color: #F9FAF8;
+    padding: 75px 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-container {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
+    display: flex;
+    padding: 24px 75px;
+    justify-content: center;
+    max-width: 1000px;
 }
 
-.ad button {
+.ad-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-button {
     border: 2px solid #F9FAF8;
+    margin: 50px;
+    padding: 6px;
 }
 
 .ad-header {
@@ -144,19 +180,6 @@ button {
 .ad-text {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-.quote {
-    background-color: #E5E7EB;
-    font-size: 36px;
-    font-weight: italic;
-    color: #1F2937;
-}
-
-.signature {
-    color: #1F2937;
-    font-weight: bold;
-    font-size: 24px;
 }
 
 .footer {
