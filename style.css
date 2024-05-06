@@ -1,6 +1,8 @@
-.body {
+body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .box {
@@ -13,7 +15,9 @@
 img {
     border: 2px solid black;
     width: 500px;
-    height: 250px;
+    height: 300px;
+    border: none;
+    max-width: 100%;
 }
 
 .header {
@@ -44,21 +48,36 @@ img {
 
 .top { 
     background-color: #1F2937;
+    padding: 75px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 
-.top h1 {
+.toptext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.toptext h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
-.top p {
+.toptext p {
     font-size: 18px;
     color: #E5E7EB;
+    width: 400px;
 }
 
 .middle {
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .middle h2 {
@@ -66,6 +85,10 @@ img {
     color: #1F2937;
     font-weight: 900;
 
+}
+
+.middlemain {
+    display: flex;
 }
 
 .container p {
@@ -79,6 +102,12 @@ button {
     border-radius: 8px;
     font-size: 18px;
     font-weight: bold;
+    width: 140px;
+    padding: 6px;
+}
+
+.toptext button {
+    border: none;
 }
 
 .ad {
